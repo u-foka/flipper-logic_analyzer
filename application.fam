@@ -1,7 +1,7 @@
 App(
     appid="logic_analyzer",
     name="Logic Analyzer",
-    apptype=FlipperAppType.PLUGIN,
+    apptype=FlipperAppType.EXTERNAL,
     entry_point="logic_analyzer_app_main",
     cdefines=["APP_LOGIC_ANALYZER"],
     requires=["gui", "storage", "dialogs"],
